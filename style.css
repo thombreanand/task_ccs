@@ -1,0 +1,122 @@
+.bg-container {
+    background: #c8c8c8;
+    background: linear-gradient(0deg, #c8c8c8 10%, #fff 100%);
+    border-bottom: 0 solid #fff;
+    height: 100vh;
+    box-sizing: border-box;
+    overflow: hidden;
+}.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 20px;
+}
+.logo>p {
+    font-size: 20px;
+    font-weight: 700;
+    color: #223614;
+    font-family: 'Segoe UI';
+    margin-left: 10px;
+    
+}
+.nav-menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+    text-transform: uppercase;
+}
+.nav-menu>li {
+    padding-right: 20px;
+}
+
+.nav-menu>li:last-child {
+    padding-right: 0;
+}
+
+.nav-menu>li>a {
+    text-decoration: none;
+    color: rgb(111, 146, 40);
+    font-weight: 500;
+    padding: 0 5px 5px 5px;
+    font-size: medium;
+}
+
+.nav-menu>li>a:hover {
+    color: #91a4a2;
+    font-weight: 500;
+    border-bottom: 1px solid #91a4a2;
+}
+.showcase {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 20px;
+}
+
+.showcase-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text {
+    margin-left: 150px;
+    color: #595e18;
+}
+
+.text>p {
+    padding-top: 20px;
+    font-size: 22px;
+    font-family: 'Helvetica Neue';
+    margin-left: 2%;
+}
+.text>h1 {
+    font-size: 60px;
+    line-height: 1;
+    padding-bottom: 20px;
+      font-weight: 700;
+    margin-top: 2%;
+    margin-left: 2%;
+    font-family: Verdana;
+}
+.showcase-bottom {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.showcase-bottom>input {
+    padding: 5px 30px;
+    text-align: center;
+    border: 1px solid #589923;
+    border-radius: 25px;
+    outline: none;
+    
+}
+
+.button {
+    padding: 5px 20px;
+    text-align: center;
+    border: 1px solid #526844;
+    border-radius: 25px;
+    outline: none;
+    background: #86aa4b;
+    color: #fff;
+}
+.input {
+    padding: 5px 20px;
+    text-align: center;
+    border: 1px solid #526844;
+    border-radius: 25px;
+    outline: none;
+    color: rgb(120, 233, 68);
+}
+.button:hover {
+    background-color: #73be51;
+    border: 1px solid #589923;
+    color: olivedrab;
+}
+
